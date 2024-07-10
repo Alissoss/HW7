@@ -2,7 +2,7 @@
 const originalArray = [1, 2, 3, 4, 5];
 const reversedArray = originalArray => originalArray.slice().reverse();
 const reverseArray = reversedArray(originalArray);
-console.log(reverseArray); // [5, 4, 3, 2, 1]
+console.log(reverseArray); 
 //Це якщо дані originalArray потрібно зберегти на майбутнє
 /* Якщо дані originalArray можна змінити, то:
 const originalArray = [1, 2, 3, 4, 5];
